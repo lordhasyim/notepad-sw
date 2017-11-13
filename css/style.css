@@ -2,8 +2,8 @@ body{
   padding-top: 50px;
 }
 textarea:hover,textarea {
-  width:100%;
-  height: 100%;
+  width: 100%;
+  height: auto;
   font-size: 18px;
   border:none;
   outline: none;
@@ -16,10 +16,13 @@ textarea:hover,textarea {
 }
 .starter-template {
   text-align: center;
+  -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
 }
 .navbar-default {
-  background-color: #3F51B5;
-  border-color: #3F51B5;
+  background-color: #DB0A5B;
+  border-color: #DB0A5B;
 }
 .navbar-default .navbar-brand {
   color: #ecf0f1;
@@ -51,11 +54,11 @@ textarea:hover,textarea {
   background-color: #8e44ad;
 }
 .navbar-default .navbar-toggle {
-  border-color: #3F51B5;
+  border-color: #DB0A5B;
 }
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-  background-color: #3F51B5;
+  background-color: #DB0A5B;
 }
 .navbar-default .navbar-toggle .icon-bar {
   background-color: #ecf0f1;
@@ -72,7 +75,7 @@ textarea:hover,textarea {
 }
 
 #flash{
-  color: #64ff6a;
+  color: #9A12B3;
   font-weight: bold;
 }
 
@@ -88,7 +91,7 @@ textarea:hover,textarea {
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
     color: #ecdbff;
-    background-color: #8e44ad;
+    background-color: #9A12B3;
   }
 }
 
